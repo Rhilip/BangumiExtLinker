@@ -1,23 +1,25 @@
 # BangumiExtLinker
 
-Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/) with the corresponding IDs on other metadata-providing websites (aka **Info Site**) such as [Douban](https://movie.douban.com/), [IMDb](https://www.imdb.com/), et al.
+Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/) with the corresponding IDs on other metadata-providing websites (aka **Info Site**) such as [Douban](https://movie.douban.com/), [IMDb](https://www.imdb.com/) et al.
 
 **All data comes from the Internet and is for learning purposes only!**
 
 ## Update Status
 
-- Last update at: `2025-02-03 10:31:13` (CET, UTC+01:00)
+- Last update at: `2025-02-03 16:37:26` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count |
 |:----:|----:|
 | Bangumi | 22547 |
-| Douban | 6381 |
-| Bilibili | 0 |
-| AniDB | 385 |
-| MyAnimeList | 334 |
-| TMDB | 2 |
-| IMDb | 3052 |
+| Douban | 8785 |
+| Bilibili | 3332 |
+| AniDB | 9900 |
+| MyAnimeList | 11531 |
+| TMDB | 4 |
+| IMDb | 4726 |
+| TheTVDB | 1 |
+| Wikidata | 1 |
 
 ## Note
 
@@ -32,8 +34,14 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
         "date": "2023-09",
         "bgm_id": "400602",
         // The Linked Id in other metadata-providing websites ( The following field will not exist when mis-match )
-        "douban_id": "36093351",
-        "imdb_id": "tt22248376"
+        "douban_id": "36093351",          // From PtGen (by info), self-scrape (by info)
+        "bili_id": "md21087073",          // From bangumi-data (by bgm_id)
+        "anidb_id": "17617",              // From anime-offline-database (by info), self-scrape (by info)
+        "mal_id": "52991",                // From anime-offline-database (by info), self-scrape (by info)
+        "tmdb_id": "tv/209867/season/1",  // From TMDB api (by search and imdb_id)
+        "imdb_id": "tt22248376",          // From Ptgen (by douban_id), TMDB api (by tmdb_id)
+        "tvdb_id": "424536",              // From TMDB api (by tmdb_id)
+        "wikidata_id": "Q56551019"        // From TMDB api (by tmdb_id), WikiData Query Service (by info, douban_id, imdb_id, et al)
     },
     // More.....
 ]
@@ -41,11 +49,17 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 2. **`Link Format`** follow the description in the table below: 
 
-| Info Site | Link Format |
-|:----:|:----|
-| Bangumi | `https://bgm.tv/subject/{bgm_id}` |
-| Douban | `https://movie.douban.com/subject/{douban_id}/` |
-| IMDb | `https://www.imdb.com/title/{imdb_id}/` |
+| Info Site | Link Format | ID Format |
+|:----:|:----|:---|
+| Bangumi | `https://bgm.tv/subject/{bgm_id}` | `\d+` |
+| Douban | `https://movie.douban.com/subject/{douban_id}/` | `\d+` |
+| Bilibili | `https://www.bilibili.com/bangumi/media/{bili_id}/` | `md\d+` |
+| AniDB | `https://anidb.net/anime/{anidb_id}` | `\d+` |
+| MyAnimeList | `https://myanimelist.net/anime/{mal_id}` | `\d+` |
+| TMDB | `https://www.themoviedb.org/{tmdb_id}` | `tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+` |
+| IMDb | `https://www.imdb.com/title/{imdb_id}/` | `tt\d+` |
+| TheTVDB | `https://thetvdb.com/dereferrer/series/{tvdb_id}` | `\d+` |
+| Wikidata | `https://www.wikidata.org/wiki/{wikidata_id}` | `Q\d+` |
 
 3. This Repo based on Bangumi ID, However different metadata-providing websites may split the same work into different entries when handling it. 
 When A Bangumi entry may be split into two or more entries on other metadata-providing websites, only one of the Linked IDs will be marked, and other IDs may be ignored.
@@ -56,4 +70,9 @@ When A Bangumi entry may be split into two or more entries on other metadata-pro
 |:---:|:---|:---:|:---|
 | [bangumi/Archive](https://github.com/bangumi/Archive) | Bangumi Wiki Archive | [CC BY-SA](https://bgm.tv/about/copyright#columnA) | For bmg_id source |
 | [czy0729/Bangumi-Subject](https://github.com/czy0729/Bangumi-Subject) | Static data snapshot of Bangumi hot subject | - | For some douban_id and match_script |
-| [ourbits/PtGen](https://github.com/ourbits/PtGen) | The static export of the PtGen Database | MIT | For `douban <-> imdb` link |
+| [bangumi-data/bangumi-data](https://github.com/bangumi-data/bangumi-data) | Raw data for Japanese Anime | [CC BY 4.0](https://github.com/bangumi-data/bangumi-data#license) | For `bgm_id -> bili_id` link |
+| [ourbits/PtGen](https://github.com/ourbits/PtGen) | The static export of the PtGen Database | [MIT](https://github.com/ourbits/PtGen/blob/main/LICENSE) | For `douban_id -> imdb_id` link |
+
+## License
+
+The data in this repo is available for use under a [CC BY 4.0 license](http://creativecommons.org/licenses/by/4.0/). For works with existing copyrights, handle them in accordance with the [Fair Use](http://en.wikipedia.org/wiki/Fair_use) principle and indicate the source.
