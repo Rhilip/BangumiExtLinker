@@ -6,20 +6,20 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 ## Update Status
 
-- Last update at: `2025-02-04 04:15:38` (CET, UTC+01:00)
+- Last update at: `2025-02-04 12:54:04` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count |
 |:----:|----:|
 | Bangumi | 22547 |
-| Douban | 9380 |
+| Douban | 9835 |
 | Bilibili | 3332 |
-| AniDB | 9900 |
-| MyAnimeList | 11531 |
-| TMDB | 4 |
-| IMDb | 4753 |
-| TheTVDB | 1 |
-| Wikidata | 1 |
+| AniDB | 10221 |
+| MyAnimeList | 11861 |
+| TMDB | 4088 |
+| IMDb | 4779 |
+| TheTVDB | 2017 |
+| Wikidata | 2781 |
 
 ## Note
 
@@ -28,7 +28,7 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 ```json5
 [
     {
-        // Content from bangumi/Archive Subject ( type=2 && nsfw=1 )
+        // Content from bangumi/Archive Subject ( type=2 && nsfw=0 )
         "name": "葬送のフリーレン",
         "name_cn": "葬送的芙莉莲",
         "date": "2023-09",
