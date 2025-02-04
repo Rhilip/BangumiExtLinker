@@ -6,24 +6,24 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 ## Update Status
 
-- Last update at: `2025-02-03 16:37:26` (CET, UTC+01:00)
+- Last update at: `2025-02-04 04:15:38` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count |
 |:----:|----:|
 | Bangumi | 22547 |
-| Douban | 8785 |
+| Douban | 9380 |
 | Bilibili | 3332 |
 | AniDB | 9900 |
 | MyAnimeList | 11531 |
 | TMDB | 4 |
-| IMDb | 4726 |
+| IMDb | 4753 |
 | TheTVDB | 1 |
 | Wikidata | 1 |
 
 ## Note
 
-1. Schema File for [anime_map.json](/data/anime_map.json)
+1. Schema File for [anime_map.json](/data/anime_map.json) ([Github Pages](https://rhilip.github.io/BangumiExtLinker/data/anime_map.json))
 
 ```json5
 [
@@ -49,29 +49,30 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 2. **`Link Format`** follow the description in the table below: 
 
-| Info Site | Link Format | ID Format |
-|:----:|:----|:---|
-| Bangumi | `https://bgm.tv/subject/{bgm_id}` | `\d+` |
-| Douban | `https://movie.douban.com/subject/{douban_id}/` | `\d+` |
-| Bilibili | `https://www.bilibili.com/bangumi/media/{bili_id}/` | `md\d+` |
-| AniDB | `https://anidb.net/anime/{anidb_id}` | `\d+` |
-| MyAnimeList | `https://myanimelist.net/anime/{mal_id}` | `\d+` |
-| TMDB | `https://www.themoviedb.org/{tmdb_id}` | `tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+` |
-| IMDb | `https://www.imdb.com/title/{imdb_id}/` | `tt\d+` |
-| TheTVDB | `https://thetvdb.com/dereferrer/series/{tvdb_id}` | `\d+` |
-| Wikidata | `https://www.wikidata.org/wiki/{wikidata_id}` | `Q\d+` |
+| Info Site | Link Format |
+|:----:|:----|
+| Bangumi | `https://bgm.tv/subject/{bgm_id:\d+}` |
+| Douban | `https://movie.douban.com/subject/{douban_id:\d+}/` |
+| Bilibili | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
+| AniDB | `https://anidb.net/anime/{anidb_id:\d+}` |
+| MyAnimeList | `https://myanimelist.net/anime/{mal_id:\d+}`
+| TMDB | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
+| IMDb | `https://www.imdb.com/title/{imdb_id:tt\d+}/` |
+| TheTVDB | `https://thetvdb.com/dereferrer/series/{tvdb_id:\d+}` |
+| Wikidata | `https://www.wikidata.org/wiki/{wikidata_id:Q\d+}` |
 
 3. This Repo based on Bangumi ID, However different metadata-providing websites may split the same work into different entries when handling it. 
 When A Bangumi entry may be split into two or more entries on other metadata-providing websites, only one of the Linked IDs will be marked, and other IDs may be ignored.
 
 ## Appreciation
 
-| Repo | Description | License | Work for |
-|:---:|:---|:---:|:---|
-| [bangumi/Archive](https://github.com/bangumi/Archive) | Bangumi Wiki Archive | [CC BY-SA](https://bgm.tv/about/copyright#columnA) | For bmg_id source |
-| [czy0729/Bangumi-Subject](https://github.com/czy0729/Bangumi-Subject) | Static data snapshot of Bangumi hot subject | - | For some douban_id and match_script |
-| [bangumi-data/bangumi-data](https://github.com/bangumi-data/bangumi-data) | Raw data for Japanese Anime | [CC BY 4.0](https://github.com/bangumi-data/bangumi-data#license) | For `bgm_id -> bili_id` link |
-| [ourbits/PtGen](https://github.com/ourbits/PtGen) | The static export of the PtGen Database | [MIT](https://github.com/ourbits/PtGen/blob/main/LICENSE) | For `douban_id -> imdb_id` link |
+| Repo | Description | License |
+|:---|:---|:---:|
+| [bangumi/Archive](https://github.com/bangumi/Archive) | Bangumi Wiki Archive | [CC BY-SA](https://bgm.tv/about/copyright#columnA) |
+| [czy0729/Bangumi-Subject](https://github.com/czy0729/Bangumi-Subject) | Static data snapshot of Bangumi hot subject | - |
+| [bangumi-data/bangumi-data](https://github.com/bangumi-data/bangumi-data) | Raw data for Japanese Anime | [CC BY 4.0](https://github.com/bangumi-data/bangumi-data#license) |
+| [manami-project/anime-offline-database](https://github.com/manami-project/anime-offline-database) | A JSON based anime dataset ... | [AGPL-3.0](https://github.com/manami-project/anime-offline-database/blob/master/LICENSE) |
+| [ourbits/PtGen](https://github.com/ourbits/PtGen) | The static export of the PtGen Database. | [MIT](https://github.com/ourbits/PtGen/blob/main/LICENSE) |
 
 ## License
 
