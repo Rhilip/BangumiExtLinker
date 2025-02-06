@@ -6,20 +6,20 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 ## Update Status
 
-- Last update at: `2025-02-04 12:54:04` (CET, UTC+01:00)
+- Last update at: `2025-02-06 05:14:25` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count |
 |:----:|----:|
 | Bangumi | 22547 |
-| Douban | 9835 |
+| Douban | 11980 |
 | Bilibili | 3332 |
-| AniDB | 10221 |
-| MyAnimeList | 11861 |
-| TMDB | 4088 |
-| IMDb | 4779 |
-| TheTVDB | 2017 |
-| Wikidata | 2781 |
+| AniDB | 10406 |
+| MyAnimeList | 12117 |
+| TMDB | 5077 |
+| IMDb | 5592 |
+| TheTVDB | 6533 |
+| Wikidata | 3202 |
 
 ## Note
 
@@ -72,6 +72,7 @@ When A Bangumi entry may be split into two or more entries on other metadata-pro
 | [czy0729/Bangumi-Subject](https://github.com/czy0729/Bangumi-Subject) | Static data snapshot of Bangumi hot subject | - |
 | [bangumi-data/bangumi-data](https://github.com/bangumi-data/bangumi-data) | Raw data for Japanese Anime | [CC BY 4.0](https://github.com/bangumi-data/bangumi-data#license) |
 | [manami-project/anime-offline-database](https://github.com/manami-project/anime-offline-database) | A JSON based anime dataset ... | [AGPL-3.0](https://github.com/manami-project/anime-offline-database/blob/master/LICENSE) |
+| [Anime-Lists/anime-lists](https://github.com/Anime-Lists/anime-lists) | Anime mapping lists from AniDB to TheTVDB, TMDB, IMDb. | - |
 | [ourbits/PtGen](https://github.com/ourbits/PtGen) | The static export of the PtGen Database. | [MIT](https://github.com/ourbits/PtGen/blob/main/LICENSE) |
 
 ## License
