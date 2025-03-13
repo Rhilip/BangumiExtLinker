@@ -9,20 +9,20 @@ When A Bangumi entry may be split into two or more entries on other metadata-pro
 
 ## Update Status
 
-- Last update at: `2025-03-06 04:41:05` (CET, UTC+01:00)
+- Last update at: `2025-03-13 05:06:42` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count | Link Format |
 |:----:|----:|:----|
-| Bangumi | 22759 | `https://bgm.tv/subject/{bgm_id:\d+}` |
-| Douban | 18616 | `https://movie.douban.com/subject/{douban_id:\d+}/` |
+| Bangumi | 22795 | `https://bgm.tv/subject/{bgm_id:\d+}` |
+| Douban | 18647 | `https://movie.douban.com/subject/{douban_id:\d+}/` |
 | Bilibili | 3331 | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
-| AniDB | 10656 | `https://anidb.net/anime/{anidb_id:\d+}` |
+| AniDB | 10657 | `https://anidb.net/anime/{anidb_id:\d+}` |
 | MyAnimeList | 12319 | `https://myanimelist.net/anime/{mal_id:\d+}` |
-| TMDB | 5503 | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
-| IMDb | 6079 | `https://www.imdb.com/title/{imdb_id:tt\d+}/` |
-| TheTVDB | 6738 | `https://thetvdb.com/dereferrer/series/{tvdb_id:\d+}` |
-| Wikidata | 3500 | `https://www.wikidata.org/wiki/{wikidata_id:Q\d+}` |
+| TMDB | 5508 | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
+| IMDb | 6084 | `https://www.imdb.com/title/{imdb_id:tt\d+}/` |
+| TheTVDB | 6739 | `https://thetvdb.com/dereferrer/series/{tvdb_id:\d+}` |
+| Wikidata | 3503 | `https://www.wikidata.org/wiki/{wikidata_id:Q\d+}` |
 
 ## Data Schema
 
