@@ -9,14 +9,14 @@ When A Bangumi entry may be split into two or more entries on other metadata-pro
 
 ## Update Status
 
-- Last update at: `2025-05-15 04:53:59` (CET, UTC+01:00)
+- Last update at: `2025-05-22 04:59:52` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count | Link Format |
 |:----:|----:|:----|
 | Bangumi | 23206 | `https://bgm.tv/subject/{bgm_id:\d+}` |
 | Douban | 18959 | `https://movie.douban.com/subject/{douban_id:\d+}/` |
-| Bilibili | 3338 | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
+| Bilibili | 3358 | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
 | AniDB | 10661 | `https://anidb.net/anime/{anidb_id:\d+}` |
 | MyAnimeList | 12324 | `https://myanimelist.net/anime/{mal_id:\d+}` |
 | TMDB | 5547 | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
