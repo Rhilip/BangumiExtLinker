@@ -9,7 +9,7 @@ When A Bangumi entry may be split into two or more entries on other metadata-pro
 
 ## Update Status
 
-- Last update at: `2025-05-29 05:24:03` (CET, UTC+01:00)
+- Last update at: `2025-06-05 04:58:14` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count | Link Format |
