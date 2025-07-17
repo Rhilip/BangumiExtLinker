@@ -2,14 +2,15 @@
 
 Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/) with the corresponding IDs on other metadata-providing websites (aka **Info Site**) such as [Douban](https://movie.douban.com/), [IMDb](https://www.imdb.com/) et al.
 
-This Repo based on Bangumi ID, However different metadata-providing websites may split the same work into different entries when handling it. 
-When A Bangumi entry may be split into two or more entries on other metadata-providing websites, only one of the Linked IDs will be marked, and other IDs may be ignored.
+> [!NOTE]
+> This Repo based on Bangumi ID, However different metadata-providing websites may split the same work into different entries when handling it. 
+> When A Bangumi entry may be split into two or more entries on other metadata-providing websites, only one of the Linked IDs will be marked, and other IDs may be ignored.
 
 **All data comes from the Internet and is for learning purposes only!**
 
 ## Update Status
 
-- Last update at: `2025-07-10 07:30:11` (CET, UTC+01:00)
+- Last update at: `2025-07-17 09:14:15` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count | Link Format |
@@ -44,7 +45,7 @@ When A Bangumi entry may be split into two or more entries on other metadata-pro
         "tmdb_id": "tv/209867/season/1",
         "imdb_id": "tt22248376",
         "tvdb_id": "424536",
-        "wikidata_id": "Q56551019"
+        "wikidata_id": "Q115792176"
     },
     // More.....
 ]
