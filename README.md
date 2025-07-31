@@ -10,14 +10,14 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 ## Update Status
 
-- Last update at: `2025-07-24 03:25:11` (CET, UTC+01:00)
+- Last update at: `2025-07-31 07:29:59` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count | Link Format |
 |:----:|----:|:----|
 | Bangumi | 23206 | `https://bgm.tv/subject/{bgm_id:\d+}` |
 | Douban | 18959 | `https://movie.douban.com/subject/{douban_id:\d+}/` |
-| Bilibili | 3372 | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
+| Bilibili | 3389 | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
 | AniDB | 10661 | `https://anidb.net/anime/{anidb_id:\d+}` |
 | MyAnimeList | 12324 | `https://myanimelist.net/anime/{mal_id:\d+}` |
 | TMDB | 5547 | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
