@@ -10,7 +10,7 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 ## Update Status
 
-- Last update at: `2026-07-09 03:08:19` (CET, UTC+01:00)
+- Last update at: `2026-07-16 03:05:45` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count | Link Format |
