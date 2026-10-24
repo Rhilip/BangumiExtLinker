@@ -10,20 +10,20 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 ## Update Status
 
-- Last update at: `2026-10-22 03:18:20` (CET, UTC+01:00)
+- Last update at: `2026-10-24 11:20:17` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count | Link Format |
 |:----:|----:|:----|
-| Bangumi | 23206 | `https://bgm.tv/subject/{bgm_id:\d+}` |
-| Douban | 18959 | `https://movie.douban.com/subject/{douban_id:\d+}/` |
-| Bilibili | 3393 | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
-| AniDB | 10661 | `https://anidb.net/anime/{anidb_id:\d+}` |
-| MyAnimeList | 12324 | `https://myanimelist.net/anime/{mal_id:\d+}` |
-| TMDB | 5568 | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
-| IMDb | 6138 | `https://www.imdb.com/title/{imdb_id:tt\d+}/` |
-| TheTVDB | 6748 | `https://thetvdb.com/dereferrer/series/{tvdb_id:\d+}` |
-| Wikidata | 3530 | `https://www.wikidata.org/wiki/{wikidata_id:Q\d+}` |
+| Bangumi | 29093 | `https://bgm.tv/subject/{bgm_id:\d+}` |
+| Douban | 19024 | `https://movie.douban.com/subject/{douban_id:\d+}/` |
+| Bilibili | 3435 | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
+| AniDB | 12495 | `https://anidb.net/anime/{anidb_id:\d+}` |
+| MyAnimeList | 15190 | `https://myanimelist.net/anime/{mal_id:\d+}` |
+| TMDB | 10824 | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
+| IMDb | 6283 | `https://www.imdb.com/title/{imdb_id:tt\d+}/` |
+| TheTVDB | 7661 | `https://thetvdb.com/dereferrer/series/{tvdb_id:\d+}` |
+| Wikidata | 3533 | `https://www.wikidata.org/wiki/{wikidata_id:Q\d+}` |
 
 ## Data Schema
 
