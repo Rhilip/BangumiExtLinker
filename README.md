@@ -57,9 +57,12 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 - [bangumi/Archive](https://github.com/bangumi/Archive): Bangumi Wiki Archive ([CC BY-SA](https://bgm.tv/about/copyright#columnA))
 - [czy0729/Bangumi-Subject](https://github.com/czy0729/Bangumi-Subject): Static data snapshot of Bangumi hot subject
 - [bangumi-data/bangumi-data](https://github.com/bangumi-data/bangumi-data): Raw data for Japanese Anime ([CC BY 4.0](https://github.com/bangumi-data/bangumi-data#license))
-- [manami-project/anime-offline-database](https://github.com/manami-project/anime-offline-database): A JSON based anime dataset containing the most important meta data as well as cross references to various anime sites such as MAL, ANIDB, ANILIST, KITSU and more... ([AGPL-3.0](https://github.com/manami-project/anime-offline-database/blob/master/LICENSE))
+- [cedya77/anime-offline-database](https://github.com/cedya77/anime-offline-database): A JSON based anime dataset containing the most important meta data as well as cross references to various anime sites such as MAL, ANIDB, ANILIST, KITSU and more... (successor of the archived [manami-project/anime-offline-database](https://github.com/manami-project/anime-offline-database); [ODbL-1.0](https://github.com/cedya77/anime-offline-database/blob/main/LICENSE))
 - [Anime-Lists/anime-lists](https://github.com/Anime-Lists/anime-lists): Anime mapping lists from AniDB to TheTVDB, TMDB, IMDb.
+- [Fribb/anime-lists](https://github.com/Fribb/anime-lists): AniDB based mapping lists for MyAnimeList, TheTVDB, TMDB and IMDb, generated from the two projects above.
+- [open-ani/bangumi-tmdb](https://github.com/open-ani/bangumi-tmdb): Community maintained mapping from Bangumi subjects to TMDB works, seasons and episodes ([CC BY 4.0](https://github.com/open-ani/bangumi-tmdb/blob/main/LICENSE-DATA))
 - [ourbits/PtGen](https://github.com/ourbits/PtGen): The static export of the PtGen Database. ([MIT](https://github.com/ourbits/PtGen/blob/main/LICENSE))
+- [TMDB](https://www.themoviedb.org/): Used to resolve and verify TMDB / IMDb / TheTVDB links through its API. This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 ## License
 
