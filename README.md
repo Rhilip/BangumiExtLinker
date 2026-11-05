@@ -10,23 +10,23 @@ Try to associate the animation entries in [Bangumi 番组计划](https://bgm.tv/
 
 ## Update Status
 
-- Last update at: `2026-10-29 05:39:05` (CET, UTC+01:00)
+- Last update at: `2026-11-05 04:47:53` (CET, UTC+01:00)
 - Last data summary:
 
 | Info Site | Count | Link Format |
 |:----:|----:|:----|
-| Bangumi | 29165 | `https://bgm.tv/subject/{bgm_id:\d+}` |
-| Douban | 19150 | `https://movie.douban.com/subject/{douban_id:\d+}/` |
+| Bangumi | 29204 | `https://bgm.tv/subject/{bgm_id:\d+}` |
+| Douban | 19331 | `https://movie.douban.com/subject/{douban_id:\d+}/` |
 | Bilibili | 3435 | `https://www.bilibili.com/bangumi/media/{bili_id:md\d+}/` |
-| AniDB | 12820 | `https://anidb.net/anime/{anidb_id:\d+}` |
-| MyAnimeList | 15643 | `https://myanimelist.net/anime/{mal_id:\d+}` |
-| TMDB | 19114 | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
-| IMDb | 10339 | `https://www.imdb.com/title/{imdb_id:tt\d+}/` |
-| TheTVDB | 7714 | `https://thetvdb.com/dereferrer/series/{tvdb_id:\d+}` |
-| Wikidata | 3550 | `https://www.wikidata.org/wiki/{wikidata_id:Q\d+}` |
-| AniList | 13634 | `https://anilist.co/anime/{anilist_id:\d+}` |
-| AniSearch | 13425 | `https://www.anisearch.com/anime/{anisearch_id:\d+}` |
-| Anime-Planet | 14821 | `https://anime-planet.com/anime/{anime_planet_id:[\w\-]+}` |
+| AniDB | 12824 | `https://anidb.net/anime/{anidb_id:\d+}` |
+| MyAnimeList | 15658 | `https://myanimelist.net/anime/{mal_id:\d+}` |
+| TMDB | 19139 | `https://www.themoviedb.org/{tmdb_id:tv/\d+(/season/\d+(/episode/\d+)?)?\|movie/\d+}` |
+| IMDb | 10395 | `https://www.imdb.com/title/{imdb_id:tt\d+}/` |
+| TheTVDB | 7718 | `https://thetvdb.com/dereferrer/series/{tvdb_id:\d+}` |
+| Wikidata | 3566 | `https://www.wikidata.org/wiki/{wikidata_id:Q\d+}` |
+| AniList | 13643 | `https://anilist.co/anime/{anilist_id:\d+}` |
+| AniSearch | 13444 | `https://www.anisearch.com/anime/{anisearch_id:\d+}` |
+| Anime-Planet | 14833 | `https://anime-planet.com/anime/{anime_planet_id:[\w\-]+}` |
 
 ## Data Schema
 
